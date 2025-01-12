@@ -5,15 +5,19 @@
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "cra-template-typescript": "1.2.0",
+    "craco-less": "^3.0.1",
+    "normalize.css": "^8.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write ."
   },
   "eslintConfig": {
     "extends": [
@@ -34,7 +38,9 @@
     ]
   },
   "devDependencies": {
+    "@types/prop-types": "^15.7.14",
     "@types/react": "^19.0.2",
-    "@types/react-dom": "^19.0.2"
+    "@types/react-dom": "^19.0.2",
+    "prettier": "^3.4.2"
   }
 }
